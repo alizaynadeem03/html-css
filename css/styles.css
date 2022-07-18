@@ -1,0 +1,48 @@
+body{
+background-image:url("D:/Web Development/HTML-Personal Site/HTML-Personal Site/background.jpg");
+background-size:cover;
+margin-right: 200px;
+margin-left: 100px;
+font-family: "Times New Roman", Times, serif;
+text-transform: capitalize;
+text-indent: 20px;
+letter-spacing: 1px;
+line-height: 1.5;
+word-spacing: 5px;
+counter-reset: section;}
+input[type=checkbox] {
+accent-color: red;}
+input[type=radio] {
+accent-color: green;}
+input[type=range] {
+accent-color: rgb(0, 0, 255);} 
+progress{
+accent-color: hsl(39, 100%, 50%);}
+input[type=text], select {
+width: 200px;
+height: 40px;
+padding: 12px 20px;
+box-sizing: border-box;
+border:none;}
+select{
+width:200px;
+height:40px;}
+
+a:link{color:powderblue;}
+a:visited{color:green;} 
+a:hover{color:hotpink;text-decoration: underline;}
+a:active{color:blue;text-decoration: underline;} 
+
+hr{
+border-style:none;
+border-top-style:dotted;
+border-color:grey;
+border-width:5px;
+width:5%;}
+
+.newspaper {
+column-count: 3;
+column-width: 100px;
+column-gap: 40px;
+column-fill: balance;
+column-rule: 4px double black}     
